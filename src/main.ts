@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
-import { GAME_WIDTH, GAME_HEIGHT } from './core/constants';
-import MainScene from './scenes/MainScene';
+import { GAME_WIDTH, GAME_HEIGHT } from './pSONG/constants';
+import MainScene from './pSONG/scenes/MainScene';
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,

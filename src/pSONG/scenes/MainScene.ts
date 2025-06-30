@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
-import { BACKGROUND_COLOUR_MATCH } from '../core/constants';
-import { Player } from '../entities/Player';
+import { BACKGROUND_COLOUR_MATCH } from '../constants';
+import { Player } from '../objects/Player';
 import { LocalInputController } from '../input/LocalInputController';
 
 export default class MainScene extends Phaser.Scene {
